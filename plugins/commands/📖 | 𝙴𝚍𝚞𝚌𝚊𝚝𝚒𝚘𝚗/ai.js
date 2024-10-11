@@ -15,7 +15,7 @@ async function onCall({ message, args }) {
     const userId = message.senderID; // Get user ID from message
 
     const header = "(⁠◍⁠•⁠ᴗ⁠•⁠◍⁠) | 𝙼𝚘𝚌𝚑𝚊 𝙰𝚒\n・──────────────・";
-    const footer = "・───── >ᴗ< ──────・";
+    const footer = "・───── >ᴗ< ──────・\n━━━━━━━━━━━━━━━━━\n\nThis Ai is made by ICT students in Pau Excellencia Global Academy Foundation, Inc.(Pegafi)\n━━━━━━━━━━━━━━━━━━";
 
     // Check for image attachments in the original message
     if (message.messageReply && message.messageReply.attachments && message.messageReply.attachments[0]?.type === "photo") {
