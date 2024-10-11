@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 
 const config = {
-    name: "spotify",
+    name: "music",
     aliases: ["play"],
     version: "1.7",
     credits: "Vex_Kshitiz/coffee",

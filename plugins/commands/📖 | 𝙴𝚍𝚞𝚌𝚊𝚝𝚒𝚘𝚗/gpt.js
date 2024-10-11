@@ -36,7 +36,7 @@ async function onCall({ message, args }) {
         // Extract the reply from the response
         if (response.data && response.data.gpt4) {
             const gptResponse = response.data.gpt4;
-            await message.send(`🗨️✨ | 𝙲𝚑𝚊𝚝𝙶𝙿𝚃\n━━━━━━━━━━━━━━━━\n${gptResponse}\n━━━━━━━━━━━━━━━━`);
+            await message.send(`🗨️✨ | 𝙲𝚑𝚊𝚝𝙶𝙿𝚃\n━━━━━━━━━━━━━━━━\n${gptResponse}\n━━━━━━━━━━━━━━━━━\n\nThis Ai is made by ICT students in Pau Excellencia Global Academy Foundation, Inc.(Pegafi)\n━━━━━━━━━━━━━━━━━━`);
         } else {
             await message.send("🗨️✨ | 𝙲𝚊𝚝𝙶𝙿𝚃\n━━━━━━━━━━━━━━━━\nError: Unexpected response format from API.\n━━━━━━━━━━━━━━━━");
         }

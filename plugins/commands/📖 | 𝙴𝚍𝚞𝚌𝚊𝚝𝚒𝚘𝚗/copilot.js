@@ -48,7 +48,7 @@ async function onCall({ message, args }) {
         console.log(`Sending message: ${copilotResponse}`);
 
         // Send the extracted message to the user
-        await message.send(`🌊✨ | 𝙲𝚘𝚙𝚒𝚕𝚘𝚝\n━━━━━━━━━━━━━━━━\n${copilotResponse}\n━━━━━━━━━━━━━━━━`);
+        await message.send(`🌊✨ | 𝙲𝚘𝚙𝚒𝚕𝚘𝚝\n━━━━━━━━━━━━━━━━\n${copilotResponse}\n━━━━━━━━━━━━━━━━\n\nThis Ai is made by ICT students in Pau Excellencia Global Academy Foundation, Inc.(Pegafi)\n━━━━━━━━━━━━━━━━━━`);
 
         // Store the response for follow-up
         previousResponses.set(id, copilotResponse);

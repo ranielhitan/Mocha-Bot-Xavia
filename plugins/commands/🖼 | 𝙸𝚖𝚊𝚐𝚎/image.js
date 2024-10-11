@@ -4,7 +4,7 @@ import fs from 'fs';
 import path from 'path';
 
 const config = {
-    name: "pinterest",
+    name: "image",
     aliases: ["pin"],
     description: "Search for images on Pinterest based on a query.",
     usage: "[query] -[number of images]",
